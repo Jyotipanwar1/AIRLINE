@@ -63,7 +63,7 @@ conclusion: So as we saw that we have done a complete EDA process, getting data 
 We apply random forest regressor it it would give r2score 0.87 then we apply rfe to select best feature for our model and help us to eliminate redundant features total_stops,Journey_day,Airline_jet_airways ,Journey_month came out to be a best features. 
 and features like additional_info_charges_airports,Airline_Vistara Premium economy
 ,Additional_Info_No check-in baggage included came out to be most redundant features.
-after eliminating these features we made a function linear regression in which we fit lasso,ridge,elastic net and it will give not so much good prediction. after that we craete a function for bagging boosting models and xgb give best r2score 94.we choose that model  as our final model
+after eliminating these features we made a function linear regression in which we fit lasso,ridge,elastic net and it will give not so much good prediction. after that we craete a function for bagging boosting models and xgb give best r2score 94 across all other models.
 
 
 
