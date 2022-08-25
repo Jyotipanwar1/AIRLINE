@@ -33,6 +33,8 @@ Checking the Additional_info column and having the count of unique types of valu
 * Plotting Violin plot for Price vs Source
 * Inference: Now with the help of cat plot only we are plotting a box plot between the price of the flight and
 the source place i.e. the place from where passengers will travel to the destination and we can see that Banglore as the source location has the most outliers while Chennai has the least.
+* Plotting Box plot for Price vs Destination
+* Inference: Here we are plotting the box plot with the help of a cat plot between the price of the flight and the destination to which the pass
 
 
 
