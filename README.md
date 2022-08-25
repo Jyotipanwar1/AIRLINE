@@ -10,3 +10,4 @@ Airline Price Prediction
 * Date_of_Journey: This column will let us know about the date on which the passenger’s journey will start.
 * Source: This column holds the name of the place from where the passenger’s journey will start.
 * Destination: This column holds the name of the place to where passengers wanted to travel.
+ * Route: Here we can know about that what is the route through which passengers have opted to travel from his/her source to their destination.
