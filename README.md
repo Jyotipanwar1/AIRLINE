@@ -16,3 +16,5 @@ Airline Price Prediction
  * Total_Stops: This will let us know  how many places flights will stop there for the flight in the whole journey
  * Additional_Info: In this column, we will get information about food, kind of food, and other ame
 * Price: Price of the flight for a complete journey including all the expenses before onboarding.
+
+# Approach & Explorartory data analysis
