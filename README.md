@@ -17,4 +17,13 @@ Airline Price Prediction
  * Additional_Info: In this column, we will get information about food, kind of food, and other ame
 * Price: Price of the flight for a complete journey including all the expenses before onboarding.
 
-# Approach & Explorartory data analysis
+# Data Preprocessing and EDA
+
+Our data had significant no. of missing values in it,mainly 
+40% of the data as null or missing.
+We could not think of dropping the null values because of the percentage of total data it
+beared, so we thought about mean, median imputation but it would create so many
+similar data points i.e around 40% of the total data would have the same value of
+certain columns
+
+
