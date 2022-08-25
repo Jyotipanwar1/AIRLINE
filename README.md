@@ -34,7 +34,23 @@ Checking the Additional_info column and having the count of unique types of valu
 * Inference: Now with the help of cat plot only we are plotting a box plot between the price of the flight and
 the source place i.e. the place from where passengers will travel to the destination and we can see that Banglore as the source location has the most outliers while Chennai has the least.
 * Plotting Box plot for Price vs Destination
-* Inference: Here we are plotting the box plot with the help of a cat plot between the price of the flight and the destination to which the pass
+* Inference: Here we are plotting the box plot with the help of a cat plot between the price of the flight and the destination to which the pass.
+* Plotting Bar chart for Months (Duration) vs Number of Flights
+: in graph we have plotted the count plot for journey in a month vs several flights
+and got to see that May has the most number of flights.
+
+Plotting Bar chart for Types of Airline vs Number of Flights
+e: after plotting  graph we can see that between the type of airline and count of flights we
+can see that Jet Airways has the most flight boarded.
+we also visualize ticket price and Airlines .
+
+
+# Feature Engineering
+first we are dividing the features and labels and then converting the hours in minutes.
+Date_of_Journey: Here we are organizing the format of the date of journey in our dataset for better preprocessing in the model stage.
+Dep_Time: Here we are converting departure time into hours and minutes
+Arrival_Time: Similarly we are converting the arrival time into hours and minutes.
+Now after final preprocessing let’s see our dataset.
 
 
 
