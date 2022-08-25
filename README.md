@@ -51,6 +51,20 @@ Date_of_Journey: Here we are organizing the format of the date of journey in our
 Dep_Time: Here we are converting departure time into hours and minutes
 Arrival_Time: Similarly we are converting the arrival time into hours and minutes.
 Now after final preprocessing let’s see our dataset.
+Correlation between all Features
+Dropping the Price column as it is of no use
+data = train_df.drop(["Price"], axis=1)
+Dealing with Categorical Data and Numerical Data
+Label Encode and Hot Encode for Categorical Columns.
+After the feature engineering ,Concatenating both Categorical Data and Numerical Data
+conclusion: So as we saw that we have done a complete EDA process, getting data insights, feature engineering, and data visualization as well so after all these steps one can go for the prediction using machine learning model-making steps.
+
+# Model Selection
+We apply random forest regressor it it would give r2score 0.87 then we apply rfe to select best feature for our model and help us to eliminate redundant features total_stops,Journey_day,Airline_jet_airways ,Journey_month came out to be a best features. 
+and features like additional_info_charges_airports,Airline_Vistara Premium economy
+,Additional_Info_No check-in baggage included came out to be most redundant features.
+after eliminating these features we made a function linear regression in which we fit lasso,ridge,elastic net and it will give not so much good prediction. after that we craete a function for bagging boosting models and xgb give best r2score 94.we choose that model  as our final model
+
 
 
 
