@@ -14,4 +14,4 @@ Airline Price Prediction
  * Arrival_Time: Arrival time is when the passenger will reach his/her destination
  * Duration:Duration is the whole period that flight will take to complete its journey from source to destination 
  * Total_Stops: This will let us know  how many places flights will stop there for the flight in the whole journey
- *
+ * Additional_Info: In this column, we will get information about food, kind of food, and other ame
