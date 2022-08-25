@@ -24,6 +24,12 @@ Our data had significant no. of missing values in it,mainly
 We could not think of dropping the null values because of the percentage of total data it
 beared, so we thought about mean, median imputation but it would create so many
 similar data points i.e around 40% of the total data would have the same value of
-certain columns
+certain columns.we will be removing those repeated values from the dataset and keeping the in-place attribute to be true so that there will be no changes.
+Checking the Additional_info column and having the count of unique types of values
+
+# data Visualization 
+* Plotting Price vs Airline plot
+* Inference: with the help of the cat plot we are trying to plot the boxplot between the price of the flight and airline and we can conclude that Jet Airways has the most outliers in terms of price.
+* Plotting Violin plot for Price vs Source
 
 
