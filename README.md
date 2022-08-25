@@ -31,5 +31,8 @@ Checking the Additional_info column and having the count of unique types of valu
 * Plotting Price vs Airline plot
 * Inference: with the help of the cat plot we are trying to plot the boxplot between the price of the flight and airline and we can conclude that Jet Airways has the most outliers in terms of price.
 * Plotting Violin plot for Price vs Source
+* Inference: Now with the help of cat plot only we are plotting a box plot between the price of the flight and
+the source place i.e. the place from where passengers will travel to the destination and we can see that Banglore as the source location has the most outliers while Chennai has the least.
+
 
 
