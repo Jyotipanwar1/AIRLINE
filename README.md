@@ -6,7 +6,7 @@ Airline Price Prediction
  
  # about dataset
  
-* * Airline: So this column will have all the types of airlines like Indigo, Jet Airways,
+* * Airline: So this column will have all the types of airlines like Indigo, Jet Airways, Air India and many more.
 * Date_of_Journey: This column will let us know about the date on which the passenger’s journey will start.
 * Source: This column holds the name of the place from where the passenger’s journey will start.
 * Destination: This column holds the name of the place to where passengers wanted to travel.
