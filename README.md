@@ -13,4 +13,4 @@ Airline Price Prediction
  * Route: Here we can know about that what is the route through which passengers have opted to travel from his/her source to their destination.
  * Arrival_Time: Arrival time is when the passenger will reach his/her destination
  * Duration:Duration is the whole period that flight will take to complete its journey from source to destination 
- * Total_Stops: This will let us
+ * Total_Stops: This will let us know
